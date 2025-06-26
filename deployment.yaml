@@ -37,4 +37,4 @@ spec:
     - protocol: TCP
       port: 80 #-> keep the same port for service from pod port as well for best practice.
       targetPort: 80  #-> make suer your container port properly ex: 8000 or 3000 depends on the container running.
-  type: ClusterIP #LoadBalancer -> For cloud
+  type: LoadBalancer #LoadBalancer -> For cloud
